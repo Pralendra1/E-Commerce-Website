@@ -6,11 +6,11 @@ body {
   background-color: #F8F9FC;
 }
 
-/* Header starts*/
+/* Header starts */
 
 .container {
-  height: 14vh;
-  width: 100vh;
+  height: 10vh;
+  width: 90%; /* Adjusted to 90% for responsiveness */
   margin: 0 auto;
 }
 
@@ -19,7 +19,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 2vh 0vh 2vh 0vh;
+  padding: 2vh 5%; /* Adjusted to 5% on each side for responsiveness */
 }
 
 .navbar-logo {
@@ -45,18 +45,18 @@ body {
   color: #F7B32D;
 }
 
-
 .navbar-link {
   display: flex;
   align-items: center;
+  font-weight: bolder;
 }
 
 .page {
-  padding: 0.5rem 1.5rem 0.5rem 1.5rem; /* Top right bottom left */
-  margin: 0 10px; /* Adjust margin as needed */
+  padding: 0.5rem 1rem; /* Adjusted padding for better spacing */
+  margin: 0 10px;
   border-radius: 1em;
-  text-decoration: none; /* Optional: remove underline from the links */
-  color: #C00000; /* Optional: set the color of the links */
+  text-decoration: none;
+  color: #C00000;
 }
 
 .page:hover {
@@ -64,4 +64,6 @@ body {
   color: #F8F9FC;
 }
 
-/* Header ends*/
+
+
+/* Header ends */
