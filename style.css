@@ -45,6 +45,16 @@ body {
   color: #F7B32D;
 }
 
+.navbar-toggle{
+  color: #C00000;
+  font-size: 1.25rem; 
+}
+
+.navbar-toggle:hover {
+  color: #F7B32D;
+}
+
+
 .navbar-link {
   display: flex;
   align-items: center;
@@ -64,6 +74,27 @@ body {
   color: #F8F9FC;
 }
 
+@media (max-width: 768px) {
+  .navbar{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .navbar-link{
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    background-color: #C00000;
+  }
+  .navbar-link .page{
+    color: #F8F9FC;
+  }
+
+  .navbar-logo, .navbar-toggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+  }
+}
 
 /* Header ends */
